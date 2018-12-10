@@ -1,15 +1,10 @@
 # dxvk-builder
 
-# Name:			dxvk-builder
-# Docker Name:	dxvk/dxvk-builder
-# Docker URL:	hub.docker.com/dxvk/dxvk-builder
-# Github:		github.com/EdwardKrayer/dxvk-builder
-
-Description:
+## Description:
 
 	Docker image to build DXVK binaries from their latest source.
 
-Usage Instructions:
+## Usage Instructions:
 
 	Execute the following to build DXVK binaries from source, the binaries will be placed in the "dxvk-latest" directory at the path specified by environmental variable DXVK_DIR at line 4.
 
@@ -20,3 +15,8 @@ Usage Instructions:
 		docker run --volume=$DXVK_DIR:/root/bin/ --tty $USER/dxvk-builder:latest
 
 	In this example, binaries will be placed at ~/dxvk-latest/ after all instructions completed.
+
+## Quick Reference:
+
+	Docker URL:		hub.docker.com/dxvk/dxvk-builder
+	Github URL:			github.com/EdwardKrayer/dxvk-builder
