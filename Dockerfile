@@ -1,5 +1,7 @@
-	# hub.docker.com/dxvk/dxvk-builder
-	# dxvk/dxvk-builder
+	# Name:			dxvk-builder
+	# Docker Name:	dxvk/dxvk-builder
+	# Docker URL:	hub.docker.com/dxvk/dxvk-builder
+	# Github:		github.com/EdwardKrayer/dxvk-builder
 
 FROM ubuntu:18.04
 
