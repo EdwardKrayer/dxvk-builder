@@ -42,7 +42,7 @@ RUN apt-get install -y lunarg-vulkan-sdk python3-distutils libvulkan1
 
 RUN apt-get install -y meson ninja-build
 RUN git clone https://github.com/doitsujin/dxvk.git /root/src/dxvk/
-RUN git checkout 923826
+RUN cd /root/src/dxvk/ && git checkout 92f3648efab8406924a5737e8f988a07d5923826 .
 
 	# [ winehq-staging ]
 
